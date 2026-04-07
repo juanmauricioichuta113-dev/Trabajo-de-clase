@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* Usamos una fuente estándar fácil de entender */
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CLASE UTILITARIA PARA LIMPIAR FLOTANTES */
+.clear {
+    clear: both;
+}
+
+/* ========================================= */
+/* HEADER                                    */
+/* ========================================= */
+.header {
+    background-color: #333333;
+    /* Color sólido básico sin transparencias ni filtros */
+    padding: 20px 5%;
+}
+
+.logo {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a5acd;
+
+    /* Un color morado (SlateBlue) */
+}
+
+.nav {
+    float: right;
+    margin-top: 5px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #cccccc;
+}
+
+.nav a:hover {
+    color: #ffffff;
+    /* Efecto hover simple usando solo color */
+}
+
+/* ========================================= */
+/* SECCIÓN HERO                              */
+/* ========================================= */
+.hero {
+    padding: 100px 5%;
+    text-align: center;
+    background-color: #222222;
+    border-bottom: 1px solid #444444;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #6a5acd;
+    /* Color sólido sin gradientes complejos */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    /* Bordes un poco redondeados */
+}
+
+.btn:hover {
+    background-color: #483d8b;
+    /* Cambio de color para el hover */
+}
+
+/* ========================================= */
+/* SECCIÓN CARACTERÍSTICAS                   */
+/* ========================================= */
+.features {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    margin-bottom: 50px;
+    color: #cccccc;
+}
+.icon img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.feature-card {
+    float: left;
+    width: 31%;
+    /* 3 tarjetas por fila = 93% + márgenes del 2% */
+    margin: 1%;
+    background-color: #333333;
+    padding: 40px 20px;
+    border: 1px solid #444444;
+}
+
+.feature-card:hover {
+    background-color: #444444;
+}
+
+.feature-card .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #cccccc;
+}
+
+/* ========================================= */
+/* SECCIÓN TABLA DE PRECIOS                  */
+/* ========================================= */
+.pricing {
+    padding: 80px 5%;
+    background-color: #222222;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /* Une los bordes de la tabla */
+    background-color: #333333;
+}
+
+th,
+td {
+    padding: 20px;
+    border: 1px solid #444444;
+    /* Uso de bordes simples */
+}
+
+th {
+    background-color: #111111;
+    color: #6a5acd;
+}
+
+/* ========================================= */
+/* FOOTER                                    */
+/* ========================================= */
+.footer {
+    background-color: #111111;
+    padding: 50px 5%;
+}
+
+.footer-col {
+    float: left;
+    width: 31%;
+    margin: 1%;
+}
+
+.footer-col h3 {
+    color: #6a5acd;
+    margin-bottom: 20px;
+}
+
+.footer-col p,
+.footer-col li {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #444444;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: #ffffff;
+    border: none;
+}
+.Ubicacion {
+    padding: 100px 5%;
+    text-align: center;
+    background-color: #222222;
+    border-bottom: 1px solid #444444;
+}
+
+.Ubicacion h1 {
+    font-size: 48px;
+    color: #6a5acd;
+    /* Color sólido sin gradientes complejos */
+    margin-bottom: 20px;
+}
+.Ubicacion img{
+    width: 500px;
+    height: 500px;
+}
+.Ubicacion p {
+    font-size: 20px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.bon {
+    display: inline-block;
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    /* Bordes un poco redondeados */
+}
+
+.bon:hover {
+    background-color: #483d8b;
+}
+footer {
+    text-align: center;
+}
